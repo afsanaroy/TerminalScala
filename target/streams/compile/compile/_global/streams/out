@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/AfsanaRoy/Desktop/TerminalScala/MovingPoint.scala:3:7: Point is already defined as class Point[0m
+[0m[[0m[31merror[0m] [0m[0mclass Point(val xc: Int, val yc: Int) {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/AfsanaRoy/Desktop/TerminalScala/PatternMatch2.scala:1:8: MainObject is already defined as object MainObject[0m
+[0m[[0m[31merror[0m] [0m[0mobject MainObject {  [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/AfsanaRoy/Desktop/TerminalScala/testingScala.scala:1:8: MainObject is already defined as object MainObject[0m
+[0m[[0m[31merror[0m] [0m[0mobject MainObject {  [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
