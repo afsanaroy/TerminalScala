@@ -1,0 +1,4 @@
+object account extends App{
+  val acct = new BankAccount
+  acct deposit 50
+  }

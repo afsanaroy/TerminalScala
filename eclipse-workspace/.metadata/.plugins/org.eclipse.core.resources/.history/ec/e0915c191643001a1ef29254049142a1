@@ -1,0 +1,6 @@
+object account {
+
+  val acct = new BankAccount
+  
+  acct deposit 50
+}

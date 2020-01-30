@@ -1,0 +1,6 @@
+object account {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  val acct = new BankAccount                      //> acct  : BankAccount = BankAccount@4c203ea1
+  acct deposit 50
+}
