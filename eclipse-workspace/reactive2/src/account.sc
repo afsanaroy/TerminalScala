@@ -5,6 +5,8 @@ object account {
   acct deposit 50
   acct withdraw 20                                //> res0: Int = 30
   acct withdraw 10                                //> res1: Int = 20
+  acct withdraw 5                                 //> res2: Int = 15
+   
   
   
   

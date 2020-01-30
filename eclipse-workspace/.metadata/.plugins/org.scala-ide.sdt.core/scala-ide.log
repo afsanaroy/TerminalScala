@@ -2334,3 +2334,890 @@ java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
 2020-01-30 09:41:13,109  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-34] - ScalaProject - Project reactive2 runs on platform default installation.
 2020-01-30 09:41:13,111  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-34] - ScalaProject - Project reactive2 has platform default sourceLevel.
 2020-01-30 09:41:13,111  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-34] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:40:01,756  WARN [Worker-29: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:40:01,796  WARN [Worker-29: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:40:03,225 ERROR [Worker-29: Building] - EclipseSbtBuildManager - ## Exception when compiling 1 sources to [/Users/AfsanaRoy/eclipse-workspace/reactive2/bin]
+/Users/AfsanaRoy/eclipse-workspace/reactive2/src does not exist or is not a directory
+scala.tools.nsc.settings.MutableSettings$OutputDirs.checkDir(MutableSettings.scala:278)
+scala.tools.nsc.settings.MutableSettings$OutputDirs.add(MutableSettings.scala:268)
+xsbt.CachedCompiler0.$anonfun$new$1(CompilerInterface.scala:69)
+xsbt.CachedCompiler0.$anonfun$new$1$adapted(CompilerInterface.scala:67)
+scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:32)
+scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:29)
+scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:191)
+xsbt.CachedCompiler0.<init>(CompilerInterface.scala:67)
+xsbt.CompilerInterface.newCompiler(CompilerInterface.scala:23)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)
+sbt.internal.inc.AnalyzingCompiler.newCachedCompiler(AnalyzingCompiler.scala:134)
+sbt.internal.inc.AnalyzingCompiler.newCachedCompiler(AnalyzingCompiler.scala:121)
+sbt.internal.inc.FreshCompilerCache.apply(CompilerCache.scala:78)
+sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:88)
+sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:81)
+scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:132)
+sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:72)
+sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:115)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:305)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:305)
+sbt.internal.inc.Incremental$.doCompile(Incremental.scala:101)
+sbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:82)
+sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:118)
+sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:64)
+sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:47)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:212)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:145)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:127)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:78)
+org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+scala.collection.immutable.List.foreach(List.scala:389)
+org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+           
+2020-01-30 10:40:03,430 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error in Scala compiler
+scala.reflect.internal.FatalError: /Users/AfsanaRoy/eclipse-workspace/reactive2/src does not exist or is not a directory
+	at scala.tools.nsc.settings.MutableSettings$OutputDirs.checkDir(MutableSettings.scala:278)
+	at scala.tools.nsc.settings.MutableSettings$OutputDirs.add(MutableSettings.scala:268)
+	at xsbt.CachedCompiler0.$anonfun$new$1(CompilerInterface.scala:69)
+	at xsbt.CachedCompiler0.$anonfun$new$1$adapted(CompilerInterface.scala:67)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:32)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:29)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:191)
+	at xsbt.CachedCompiler0.<init>(CompilerInterface.scala:67)
+	at xsbt.CompilerInterface.newCompiler(CompilerInterface.scala:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)
+	at sbt.internal.inc.AnalyzingCompiler.newCachedCompiler(AnalyzingCompiler.scala:134)
+	at sbt.internal.inc.AnalyzingCompiler.newCachedCompiler(AnalyzingCompiler.scala:121)
+	at sbt.internal.inc.FreshCompilerCache.apply(CompilerCache.scala:78)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:88)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:81)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:132)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:72)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:115)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:305)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:305)
+	at sbt.internal.inc.Incremental$.doCompile(Incremental.scala:101)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:82)
+	at sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:118)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:64)
+	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:84)
+	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:129)
+	at sbt.internal.inc.Incremental$.compile(Incremental.scala:75)
+	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:70)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:309)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:267)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:158)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:237)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:145)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:47)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:212)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:145)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:127)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:78)
+	at org.scalaide.core.internal.project.scopes.BuildScopeUnit.build(BuildScopeUnit.scala:72)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3(SbtScopesBuildManager.scala:53)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.$anonfun$build$3$adapted(SbtScopesBuildManager.scala:50)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.core.internal.project.SbtScopesBuildManager.build(SbtScopesBuildManager.scala:50)
+	at org.scalaide.core.internal.project.ScalaProject.build(ScalaProject.scala:596)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:111)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-01-30 10:40:04,429  WARN [Worker-31: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:40:04,430  WARN [Worker-31: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:40:05,049  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:40:05,049  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:40:05,050  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:40:05,050  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:40:05,052  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:40:05,052  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-38] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:42:53,359 ERROR [main] - Statistics - Statistics file `/Users/AfsanaRoy/.scalaide/statistics` is corrupted. A new one is being created. Corrupted content was:
+
+com.cedarsoftware.util.io.JsonIoException: error parsing JSON value
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:529)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:289)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:262)
+	at org.scalaide.core.internal.statistics.Statistics.read(Statistics.scala:74)
+	at org.scalaide.core.internal.statistics.Statistics.$anonfun$readStats$1(Statistics.scala:52)
+	at org.scalaide.core.internal.statistics.Statistics.$anonfun$readStats$1$adapted(Statistics.scala:51)
+	at org.scalaide.core.ScalaIdeDataStore$.$anonfun$validate$2(ScalaIdeDataStore.scala:59)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.core.ScalaIdeDataStore$.validate(ScalaIdeDataStore.scala:59)
+	at org.scalaide.core.internal.statistics.Statistics.readStats(Statistics.scala:51)
+	at org.scalaide.core.internal.statistics.Statistics.<init>(Statistics.scala:30)
+	at org.scalaide.core.internal.ScalaPlugin.stats$lzycompute(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.stats(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.statistics(ScalaPlugin.scala:138)
+	at org.scalaide.core.internal.ScalaPlugin.start(ScalaPlugin.scala:109)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:929)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.internal.ui.filters.FilterDescriptor$1.run(FilterDescriptor.java:140)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.filters.FilterDescriptor.createViewerFilter(FilterDescriptor.java:144)
+	at org.eclipse.jdt.ui.actions.CustomFiltersActionGroup$FilterItem.getFilterInstance(CustomFiltersActionGroup.java:190)
+	at org.eclipse.jdt.ui.actions.CustomFiltersActionGroup.updateViewerFilters(CustomFiltersActionGroup.java:517)
+	at org.eclipse.jdt.ui.actions.CustomFiltersActionGroup.<init>(CustomFiltersActionGroup.java:277)
+	at org.eclipse.jdt.ui.actions.CustomFiltersActionGroup.<init>(CustomFiltersActionGroup.java:244)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.<init>(PackageExplorerActionGroup.java:152)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart.makeActions(PackageExplorerPart.java:804)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart.createPartControl(PackageExplorerPart.java:519)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:154)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:408)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:331)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1002)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:547)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1002)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1297)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:140)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1086)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
+	at com.cedarsoftware.util.io.JsonParser.error(JsonParser.java:584)
+	at com.cedarsoftware.util.io.JsonParser.readValue(JsonParser.java:278)
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:521)
+	... 151 more
+2020-01-30 10:42:53,423 ERROR [main] - System.err - [org.eclipse.pde.ui] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 10:42:53,593 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 10:42:59,484  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:42:59,495  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:42:59,531  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:42:59,532  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:43:02,702  WARN [Worker-9: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:43:02,703  WARN [Worker-9: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:43:03,168  WARN [Worker-9: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:43:03,168  WARN [Worker-9: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:43:32,598 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 10:44:28,804  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:28,807  WARN [Worker-1: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:28,821  WARN [Worker-1: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:28,821  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:28,822  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:28,822  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:28,840  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:28,840  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:28,999  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler - object account {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(60); 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   println("Welcome to the Scala worksheet");$skip(32); 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   val acct = new BankAccount;System.out.println("""acct  : BankAccount = """ + $show(acct ));$skip(18); 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   acct deposit 50;$skip(19); val res$0 = 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   acct withdraw 20;System.out.println("""res0: Int = """ + $show(res$0));$skip(19); val res$1 = 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   acct withdraw 10;System.out.println("""res1: Int = """ + $show(res$1));$skip(18); val res$2 = 
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   acct withdraw 5;System.out.println("""res2: Int = """ + $show(res$2))}
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -    
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler -   
+2020-01-30 10:44:29,000  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ResidentCompiler - }
+2020-01-30 10:44:31,166  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:31,167  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:31,175  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:31,175  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:31,175  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:31,175  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:31,178  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:31,178  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:34,387  WARN [Worker-9: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:34,388  WARN [Worker-9: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:35,092  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:35,092  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:35,092  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:35,092  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 10:44:35,095  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 10:44:35,095  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:39:37,490  WARN [Worker-4: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:39:37,546  WARN [Worker-4: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:39:37,546  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler - object account {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(60); 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   println("Welcome to the Scala worksheet");$skip(32); 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   val acct = new BankAccount;System.out.println("""acct  : BankAccount = """ + $show(acct ));$skip(20); 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   val n = readInt();System.out.println("""n  : Int = """ + $show(n ));$skip(17); 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   acct deposit n;$skip(19); val res$0 = 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   acct withdraw 20;System.out.println("""res0: Int = """ + $show(res$0));$skip(19); val res$1 = 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   acct withdraw 10;System.out.println("""res1: Int = """ + $show(res$1));$skip(18); val res$2 = 
+2020-01-30 11:39:37,547  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   acct withdraw 5;System.out.println("""res2: Int = """ + $show(res$2))}
+2020-01-30 11:39:37,548  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -    
+2020-01-30 11:39:37,548  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   
+2020-01-30 11:39:37,548  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   
+2020-01-30 11:39:37,548  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler -   
+2020-01-30 11:39:37,548  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ResidentCompiler - }
+2020-01-30 11:39:42,898  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:39:42,899  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:39:42,903  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:39:42,903  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:39:42,903  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:39:42,903  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:39:42,906  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:39:42,906  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:02,221 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 11:41:02,284 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 11:41:02,284 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 11:41:09,337 ERROR [Worker-15: Debug Event Dispatch] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  60 Welcome to the Scala worksheet
+92 acct  : BankAccount = BankAccount@4c203ea1
+
+Standard error:
+  
+
+2020-01-30 11:41:13,627  WARN [Worker-16: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:13,627  WARN [Worker-16: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:14,666  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:14,667  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:14,667  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:14,667  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:14,670  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:14,670  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:48,834  WARN [Worker-16: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:48,886  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler - object account {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(60); 
+2020-01-30 11:41:48,886  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   println("Welcome to the Scala worksheet");$skip(32); 
+2020-01-30 11:41:48,886  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   
+2020-01-30 11:41:48,886  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   val acct = new BankAccount;System.out.println("""acct  : BankAccount = """ + $show(acct ));$skip(18); 
+2020-01-30 11:41:48,886  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   acct deposit 50;$skip(19); val res$0 = 
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   acct withdraw 20;System.out.println("""res0: Int = """ + $show(res$0));$skip(19); val res$1 = 
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   acct withdraw 10;System.out.println("""res1: Int = """ + $show(res$1));$skip(18); val res$2 = 
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   acct withdraw 5;System.out.println("""res2: Int = """ + $show(res$2))}
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -    
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler -   
+2020-01-30 11:41:48,887  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ResidentCompiler - }
+2020-01-30 11:41:48,890  WARN [Worker-16: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:50,204  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:50,204  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:50,208  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:50,208  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:50,209  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:50,209  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:50,218  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:50,218  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:54,839  WARN [Worker-15: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:54,839  WARN [Worker-15: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:55,869  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:55,869  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:55,870  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:55,870  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:55,873  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:55,873  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:57,483  WARN [Worker-4: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:57,509  WARN [Worker-4: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:58,281  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:58,281  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:58,281  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:58,281  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:41:58,284  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:41:58,284  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:52:56,930  WARN [Worker-6: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:52:56,975  WARN [Worker-6: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:52:59,516  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:52:59,517  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:52:59,517  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:52:59,518  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:52:59,521  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:52:59,521  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:58:43,439  WARN [Worker-1: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:58:43,504  WARN [Worker-1: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:58:45,843  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:58:45,843  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:58:45,844  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:58:45,844  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 11:58:45,847  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 11:58:45,847  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:01:29,952  WARN [Worker-1: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:01:30,013  WARN [Worker-1: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:01:31,960  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:01:31,960  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:01:31,960  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:01:31,960  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:01:31,964  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:01:32,101  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:02:56,854  WARN [Worker-16: Building] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:02:56,896  WARN [Worker-16: Building] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:02:58,946  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:02:58,946  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:02:58,946  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:02:58,946  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:02:58,949  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 12:02:58,949  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 12:04:11,315  WARN [ModalContext] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:04:11,356  WARN [ModalContext] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:04:18,584  WARN [Worker-17: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:04:18,612  WARN [Worker-17: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:06:07,319  WARN [main] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:06:07,340  WARN [main] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:06:13,840  WARN [Worker-4: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:06:13,840  WARN [Worker-4: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:06:14,294  WARN [Java indexing] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:06:14,294  WARN [Java indexing] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:06:16,404  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:06:16,418  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:36:49,555  WARN [Worker-4: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:36:49,601  WARN [Worker-4: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:37:04,410  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:37:04,424  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:37:17,296  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:37:17,314  WARN [Worker-6: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:43:39,830  WARN [main] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:43:39,878  WARN [main] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:43:40,084  WARN [Worker-17: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:43:40,084  WARN [Worker-17: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 12:44:03,774  WARN [Worker-20: Building] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 12:44:03,779  WARN [Worker-20: Building] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 14:07:50,184  WARN [ModalContext] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:07:50,241  WARN [ModalContext] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:07:50,664  WARN [ModalContext] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:07:50,664  WARN [ModalContext] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:07:52,794  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project InteractiveBank has platform default sourceLevel.
+2020-01-30 14:07:52,795  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project InteractiveBank runs on platform default installation.
+2020-01-30 14:07:54,817 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [InteractiveBank does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2347)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2376)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.updateOutlineView(ScalaOutlineReconcilingStrategy.scala:34)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.initialReconcile(ScalaOutlineReconcilingStrategy.scala:27)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:125)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+2020-01-30 14:07:56,010  WARN [Worker-18: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:07:56,011  WARN [Worker-18: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:07:56,026  WARN [Worker-18: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:07:56,026  WARN [Worker-18: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:08:32,356  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:08:32,366  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:08:32,680  WARN [Worker-18: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:08:32,680  WARN [Worker-18: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:08:48,502  WARN [Worker-31: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:08:48,505  WARN [Worker-31: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:09:16,274  WARN [Worker-30: Launching forLoopBasic$] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:09:16,290  WARN [Worker-30: Launching forLoopBasic$] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:32:00,721  WARN [Worker-29: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:32:00,766  WARN [Worker-29: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:32:01,561  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:32:01,561  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:32:36,997  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:32:37,035  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:32:37,529  WARN [Worker-26: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:32:37,530  WARN [Worker-26: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:37:09,245  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:37:09,264  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:37:09,459  WARN [Worker-29: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:37:09,460  WARN [Worker-29: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:37:51,893  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 89
+2020-01-30 14:37:51,939  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 89
+2020-01-30 14:37:53,535  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 89
+2020-01-30 14:37:53,537  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 89
+2020-01-30 14:38:00,707  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 89
+2020-01-30 14:48:14,949  WARN [Worker-6: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:48:14,987  WARN [Worker-6: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:48:22,472  WARN [Worker-31: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:48:22,521  WARN [Worker-31: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:48:51,367  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:48:51,424  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 14:48:51,607  WARN [Worker-34: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 14:48:51,608  WARN [Worker-34: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:08:49,725  WARN [Worker-6: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:08:49,788  WARN [Worker-6: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:09:52,714  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:09:52,747  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:09:53,017  WARN [Worker-33: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:09:53,017  WARN [Worker-33: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:10:26,261  WARN [Worker-26: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:10:26,304  WARN [Worker-26: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:14:00,442  WARN [Worker-30: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:14:00,482  WARN [Worker-30: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:25:36,416 ERROR [main] - System.err - swt-tree-arrow-mode and swt-tree-arrow-color are not supported on this platform
+2020-01-30 15:29:14,385 ERROR [main] - System.err - [org.eclipse.pde.ui] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 15:29:14,575 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 15:29:17,717  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:29:17,718  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:29:17,730  WARN [main] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:29:17,731  WARN [main] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:29:27,365 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-01-30 15:29:31,849  WARN [Worker-5: Initializing Java Tooling] - ScalaProject - Project reactive2 has platform default sourceLevel.
+2020-01-30 15:29:31,852  WARN [Worker-5: Initializing Java Tooling] - ScalaProject - Project reactive2 runs on platform default installation.
+2020-01-30 15:30:48,370  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:30:48,412  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:30:48,720  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:30:48,721  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:31:19,066  WARN [Worker-8: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:31:19,103  WARN [Worker-8: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:37:39,510  WARN [Worker-2: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:37:39,544  WARN [Worker-2: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:39:02,900  WARN [Worker-9: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:39:02,959  WARN [Worker-9: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:39:59,463  WARN [Worker-3: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:39:59,585  WARN [Worker-3: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:42:17,111  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:42:17,147  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:46:31,215  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:46:31,261  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:46:50,521  WARN [Worker-6: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:46:50,528  WARN [Worker-6: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:48,790  WARN [Worker-3: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:48,820  WARN [Worker-3: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:49,607  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:49,607  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:49,608  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:49,608  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:49,643  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:49,643  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:50,008  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ResidentCompiler - package week2
+2020-01-30 15:47:50,009  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ResidentCompiler - 
+2020-01-30 15:47:50,009  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:47:50,009  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ResidentCompiler -   println("Welcome to the Scala worksheet")}
+2020-01-30 15:47:50,009  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ResidentCompiler - }
+2020-01-30 15:47:52,627  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:52,627  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:52,658  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:52,659  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:52,660  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:52,660  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:52,666  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:52,667  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-6] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:56,449  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:56,465  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:57,410  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:57,411  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:57,411  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:57,411  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:47:57,414  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:47:57,414  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-5] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:21,849  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler - package week2
+2020-01-30 15:48:21,866  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler - 
+2020-01-30 15:48:21,866  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:48:21,866  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler -   println("Welcome to the Scala worksheet")}
+2020-01-30 15:48:21,867  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:48:21,867  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler -   
+2020-01-30 15:48:21,867  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ResidentCompiler - }
+2020-01-30 15:48:21,947  WARN [Worker-9: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:21,947  WARN [Worker-9: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:24,435  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:24,435  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:24,618  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:24,618  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:24,618  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:24,618  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:24,623  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:24,623  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:27,328 ERROR [Worker-13: Debug Event Dispatch] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  
+Standard error:
+  
+
+2020-01-30 15:48:27,438  WARN [Worker-2: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:27,439  WARN [Worker-2: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:28,232  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:28,233  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:28,233  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:28,233  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:28,235  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:28,236  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:44,959  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler - package week2
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler - 
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler -   println("Welcome to the Scala worksheet")}
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler -   import sim._
+2020-01-30 15:48:44,968  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler -   
+2020-01-30 15:48:44,969  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ResidentCompiler - }
+2020-01-30 15:48:45,153  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:45,153  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:46,931  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:46,934  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:46,939  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:46,940  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:46,940  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:46,940  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:46,944  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:46,944  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-8] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:48,666  WARN [Worker-9: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:48,666  WARN [Worker-9: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:49,585  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:49,586  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:49,586  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:49,586  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:48:49,588  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:48:49,588  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-7] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:13,052  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - package week2
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - 
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ))}
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   
+2020-01-30 15:51:13,076  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - }
+2020-01-30 15:51:13,211  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:13,211  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:14,258  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:14,259  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:14,636  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:14,636  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:14,637  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:14,637  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:14,639  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:14,639  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:18,248  WARN [Worker-6: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:18,248  WARN [Worker-6: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:18,974  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:18,974  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:18,974  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:18,974  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:18,976  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:18,977  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-11] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - package week2
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - 
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ));$skip(34); 
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   halfAdder(in1, in2, sum, carry);$skip(20); 
+2020-01-30 15:51:54,417  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler -   probe("sum", sum)}
+2020-01-30 15:51:54,418  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ResidentCompiler - }
+2020-01-30 15:51:54,587  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:54,587  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:55,549  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:55,549  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:55,700  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:55,700  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:55,700  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:55,700  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:55,703  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:55,703  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-12] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:56,940  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:56,941  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:57,648  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:57,648  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:57,648  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:57,649  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:51:57,651  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:51:57,651  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-9] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:03,285  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - package week2
+2020-01-30 15:53:03,315  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - 
+2020-01-30 15:53:03,315  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:53:03,315  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:53:03,315  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:53:03,315  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ));$skip(34); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   halfAdder(in1, in2, sum, carry);$skip(20); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   probe("sum", sum);$skip(24); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   probe("carry", carry);$skip(24); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   in1 setSignal true;$skip(8); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   run();$skip(21); 
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   in2 setSignal true}
+2020-01-30 15:53:03,316  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - }
+2020-01-30 15:53:03,319  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:03,319  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:04,934  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:04,935  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:04,937  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:04,937  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:04,937  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:04,937  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:04,939  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:04,939  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:09,649  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:09,660  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:10,401  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:10,401  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:10,402  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:10,402  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:10,405  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:10,405  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-10] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:50,655  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - package week2
+2020-01-30 15:53:50,684  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - 
+2020-01-30 15:53:50,684  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ));$skip(34); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   halfAdder(in1, in2, sum, carry);$skip(20); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   probe("sum", sum);$skip(24); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   probe("carry", carry);$skip(24); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   in1 setSignal true;$skip(8); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   run();$skip(21); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   in2 setSignal true;$skip(8); 
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler -   run()}
+2020-01-30 15:53:50,685  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ResidentCompiler - }
+2020-01-30 15:53:50,806  WARN [Worker-14: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:50,806  WARN [Worker-14: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:50,828 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 15:53:50,828 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 15:53:50,828 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-01-30 15:53:52,282  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:52,282  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:52,467  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:52,467  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:52,467  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:52,467  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:52,472  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:52,472  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-13] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:57,262  WARN [Worker-3: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:57,285  WARN [Worker-3: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:58,068  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:58,068  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:58,068  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:58,068  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:53:58,071  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:53:58,071  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-14] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:47,013  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - package week2
+2020-01-30 15:54:47,043  WARN [Worker-9: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:47,065  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - 
+2020-01-30 15:54:47,065  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:54:47,065  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:54:47,065  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:54:47,065  WARN [Worker-9: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:47,065  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ));$skip(34); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   halfAdder(in1, in2, sum, carry);$skip(20); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   probe("sum", sum);$skip(24); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   probe("carry", carry);$skip(24); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in1 setSignal true;$skip(8); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run();$skip(21); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in2 setSignal true;$skip(8); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run();$skip(25); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in1 setSignal false;$skip(8); 
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run()}
+2020-01-30 15:54:47,066  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - }
+2020-01-30 15:54:48,856  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:48,857  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:48,859  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:48,859  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:48,859  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:48,859  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:48,861  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:48,862  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:54,027  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:54,043  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:55,005  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:55,005  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:55,005  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:55,005  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:54:55,014  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:54:55,014  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-15] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:25,759  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - package week2
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(72); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   println("Welcome to the Scala worksheet")
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   object sim extends Circuits with Parameters
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   import sim._;$skip(98); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   val in1, in2,sum, carry = new Wire;System.out.println("""in1  : week2.test.sim.Wire = """ + $show(in1 ));System.out.println("""in2  : week2.test.sim.Wire = """ + $show(in2 ));System.out.println("""sum  : week2.test.sim.Wire = """ + $show(sum ));System.out.println("""carry  : week2.test.sim.Wire = """ + $show(carry ));$skip(34); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   halfAdder(in1, in2, sum, carry);$skip(20); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   probe("sum", sum);$skip(24); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   probe("carry", carry);$skip(24); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in1 setSignal true;$skip(8); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run();$skip(21); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in2 setSignal true;$skip(8); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run();$skip(25); 
+2020-01-30 15:55:25,760  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   
+2020-01-30 15:55:25,761  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   in1 setSignal false;$skip(8); 
+2020-01-30 15:55:25,761  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   run()}
+2020-01-30 15:55:25,761  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler -   
+2020-01-30 15:55:25,762  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ResidentCompiler - }
+2020-01-30 15:55:25,846  WARN [Worker-6: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:25,847  WARN [Worker-6: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:27,039  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:27,042  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:27,385  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:27,385  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:27,385  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:27,385  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:27,387  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:27,387  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:31,165  WARN [Worker-13: Building] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:31,165  WARN [Worker-13: Building] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:31,805  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:31,805  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:31,805  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:31,805  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.
+2020-01-30 15:55:31,807  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive has platform default sourceLevel.
+2020-01-30 15:55:31,808  WARN [bundle-518-ActorSystem-akka.actor.default-dispatcher-16] - ScalaProject - Project Interactive runs on platform default installation.

@@ -1,5 +1,3 @@
-
-
 class BankAccount {
   private var balance = 0 
   def deposit(amount: Int): Unit = {
@@ -9,5 +7,5 @@ class BankAccount {
     if(0< amount && amount <= balance){
       balance = balance - amount
       balance
-    } else throw new Error("Insufficient Funds")
+    } else throw new Error("Insufficient")
 }
